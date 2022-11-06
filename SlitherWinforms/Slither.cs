@@ -43,9 +43,8 @@ namespace SlitherWinforms
 
 
                 slither.SpeedSlither.Enabled = true;
-                slither.StartPosition = FormStartPosition.Manual;
-                slither.Show();
                 slither.Location = new Point(PositionX-80,PositionY);
+                slither.Show();
 
 
             }
